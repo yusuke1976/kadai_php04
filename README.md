@@ -14,7 +14,7 @@
 
 ## ③DEMO
 
-https://gs-dev27-41.sakura.ne.jp/php03kadai/
+https://gs-dev27-41.sakura.ne.jp/php04kadai/
 
 ## ④作ったアプリケーション用のIDまたはPasswordがある場合
 
