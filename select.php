@@ -70,7 +70,7 @@ if ($status == false) {
 
 <style>
     body {
-        background-image: url('./img/background.jpg');
+        background-image: url('./img/background2.jpg');
         background-size: cover;
         background-position: center;
         background-attachment: fixed;
@@ -108,7 +108,7 @@ if ($status == false) {
 </nav>
 
 <div class="container">
-  <h2 class="text-center mb-4 font-weight-bold">登録データ一覧</h2>
+  <h2 class="text-center mb-4 font-weight-bold text-warning"><i class="fas fa-book-open"></i>登録データ一覧</h2>
   
   <!-- 検索フォーム -->
   <form action="" method="GET" class="mb-4"  id="searchForm">

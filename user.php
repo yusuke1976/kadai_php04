@@ -10,7 +10,7 @@
 
     <style>
         body {
-            background-image: url('./img/background.jpg');
+            background-image: url('./img/background2.jpg');
             background-size: cover;
             background-position: center;
             background-attachment: fixed;
