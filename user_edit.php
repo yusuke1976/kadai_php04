@@ -96,6 +96,8 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST') {
     <title>ユーザー情報編集</title>
     <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@300;400;700&display=swap" rel="stylesheet">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css" rel="stylesheet">
+
     <style>
         body {
             background-image: url('./img/background.jpg');
@@ -216,8 +218,8 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST') {
             <span class="welcome-message"><?=$_SESSION["username"]?>さん、一緒に悩みを解決しましょう！</span>
         </div>
         <div class="nav-links">
-            <a class="navbar-brand" href="select.php">登録データ一覧</a>
-            <a class="navbar-brand" href="logout.php">ログアウト</a>
+            <a class="navbar-brand" href="select.php"><i class="fa fa-table"></i>登録データ一覧</a>
+            <a class="navbar-brand" href="logout.php"><i class="fas fa-sign-out-alt"></i>ログアウト</a>
         </div>
     </div>
 </nav>

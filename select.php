@@ -66,6 +66,7 @@ if ($status == false) {
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>登録データ表示</title>
 <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" rel="stylesheet">
+<link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css" rel="stylesheet">
 
 <style>
     body {
@@ -99,10 +100,10 @@ if ($status == false) {
     &thinsp;
     <?=$_SESSION["username"]?>さん、一緒に悩みを解決しましょう！
     </a>
-    <a class="navbar-brand" href="index3.php">悩み登録</a>
-    <a class="navbar-brand" href="index2.php">データ登録</a>
-    <a class="navbar-brand" href="user_edit.php">ユーザー情報編集</a>
-    <a class="navbar-brand" href="logout.php">ログアウト</a>
+    <a class="navbar-brand" href="index3.php"><i class="fas fa-plus-circle"></i>悩み登録</a>
+    <a class="navbar-brand" href="index2.php"><i class="fas fa-database"></i>データ登録</a>
+    <a class="navbar-brand" href="user_edit.php"><i class="fa fa-pen"></i>ユーザー情報編集</a>
+    <a class="navbar-brand" href="logout.php"><i class="fas fa-sign-out-alt"></i>ログアウト</a>
   </div>
 </nav>
 
