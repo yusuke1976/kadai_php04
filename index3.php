@@ -42,7 +42,8 @@ $profile_image = $user['profile_image'] ? 'uploads/' . $user['profile_image'] : 
         .profile-img {
             width: 50px;
             height: 50px;
-            border-radius: 50%;
+            border-radius: 50%;   /* 真円 */
+            object-fit: cover;    /* 枠に合わせて切り取る */
         }
 
         .navbar {

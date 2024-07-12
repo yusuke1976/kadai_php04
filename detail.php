@@ -70,7 +70,8 @@ $v    = $stmt->fetch(); //PDO::FETCH_ASSOC[カラム名のみで取得できる�
         .profile-img {
             width: 50px;
             height: 50px;
-            border-radius: 50%;
+            border-radius: 50%;   /* 真円 */
+            object-fit: cover;    /* 枠に合わせて切り取る */
         }
     </style>
 

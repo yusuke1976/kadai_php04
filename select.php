@@ -76,10 +76,12 @@ if ($status == false) {
         background-color: #f8f9fa;
     }
     .profile-img {
-            width: 50px;
-            height: 50px;
-            border-radius: 50%;
-        }
+        width: 50px;
+        height: 50px;
+        border-radius: 50%;   /* 真円 */
+        object-fit: cover;    /* 枠に合わせて切り取る */
+    }
+
     .navbar { background-color: #007bff; }
     .navbar-brand { color: white !important; }
     .navbar-brand:hover { text-decoration: underline; }
