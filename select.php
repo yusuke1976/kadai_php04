@@ -115,7 +115,7 @@ if ($status == false) {
     <div class="input-group">
       <input type="text" class="form-control" placeholder="キーワードを入力" name="search" id="searchInput" value="<?= h($search_keyword) ?>">
       <div class="input-group-append">
-        <button class="btn btn-primary" type="submit"><i class="fas fa-search"></i>検索</button>
+        <button class="btn btn-warning" type="submit"><i class="fas fa-search"></i>検索</button>
         <button class="btn btn-secondary" type="button" id="resetSearch"><i class="fas fa-undo"></i>リセット</button>
       </div>
     </div>
