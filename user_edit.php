@@ -82,7 +82,7 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST') {
         sql_error($stmt);
     } else {
         $_SESSION['username'] = $username; // セッション情報を更新
-        redirect("select2.php");
+        redirect("select.php");
     }
 }
 
